@@ -28,3 +28,19 @@ body {
     color: rgb(204, 242, 128);
     font-family: "Ubuntu", serif;
 }
+
+#div-profissao {
+    margin-top: 4.5em;
+    font-size: 30px;
+    font-family: "Ubuntu", serif;
+    color: rgb(204, 242, 128);
+    margin-left: 4em;
+}
+
+#info {
+    margin-left: 7.5em;
+    color: rgb(215, 208, 242);
+    margin-top: 1.5em;
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+}
