@@ -9,6 +9,18 @@ body {
     width: 100vw;
 }
 
+p {
+    margin-top: 7px;
+}
+
+img {
+    position: absolute;
+    margin-left: 51.8em;
+    margin-top: 12em;
+    height: 250px;
+    width: 250px;
+}
+
 #sec-colorblue {
     height: 100vh;
     width: 70vw;
@@ -19,6 +31,8 @@ body {
     height: 100vh;
     width: 30vw;
     background-color: rgb(204, 242, 128);
+    display: flex;
+    justify-content: end;
 }
 
 #div-nome {
@@ -37,10 +51,57 @@ body {
     margin-left: 4em;
 }
 
-#info {
+#info-1 {
     margin-left: 7.5em;
     color: rgb(215, 208, 242);
     margin-top: 1.5em;
     font-family: "Ubuntu", serif;
     font-size: 16px;
+}
+
+#info-2 {
+    display: flex;
+    gap: 5em;
+    color: rgb(215, 208, 242);
+    font-family: "Ubuntu", serif;
+    font-size: 13px;
+    margin-top: 8em;
+    margin-left: 9em;
+}
+
+#circulo {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#linha-1 {
+    height: 2px;
+    width: 3vw;
+    background-color: rgb(70, 49, 212);
+}
+
+#linha-2 {
+    height: 2px;
+    width: 2vw;
+    background-color: rgb(70, 49, 212);
+    margin-top: 1em;
+}
+
+#conteiner {
+    margin-right: 4em;
+    margin-top: 4em;
+}
+
+#decoracao {
+    position: absolute;
+    height: 20vh;
+    width: 2vw;
+    margin-left: 80em;
+    margin-top: 30em;
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
