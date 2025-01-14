@@ -21,6 +21,15 @@ img {
     width: 250px;
 }
 
+.losango-decoracao {
+    background: rgb(70, 49, 212);   
+    height: 10px;
+    width: 10px; 
+    margin-top: 1em;
+    margin-left: 2px;
+    transform: rotate(45deg);
+}
+
 #sec-colorblue {
     height: 100vh;
     width: 70vw;
@@ -69,13 +78,6 @@ img {
     margin-left: 9em;
 }
 
-#circulo {
-    background: lightblue;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
 #linha-1 {
     height: 2px;
     width: 3vw;
@@ -100,8 +102,11 @@ img {
     width: 2vw;
     margin-left: 80em;
     margin-top: 30em;
-    display: flex;
-    display: block;
-    justify-content: center;
-    align-items: center;
+}
+
+#quadrado-decoracao {
+    background: rgb(204, 242, 128);   
+    height: 10px;
+    width: 10px; 
+    border: 2px solid rgb(70, 49, 212);
 }
